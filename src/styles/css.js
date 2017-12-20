@@ -20,6 +20,7 @@ export const cssFlatListVeiw = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
   },
+
   imgParent: {
     flex: 1,
     marginTop: 5,
@@ -212,8 +213,20 @@ export const cssFlatListVeiw = StyleSheet.create({
 export const cssTabView = StyleSheet.create({
   viewParent: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+  },
+  selectedList: {
+    width: 65,
+    marginTop: 10,
+    height: 35,
+    flex: 1,
+    backgroundColor: '#FFF',
+  },
+  viewParentSelectStartTime: {
+    width: 65,
+    flex: 1, 
+    height: 35,
+    marginTop: 10,
+    backgroundColor: '#eee',
   },
   item: {
     width: 120,
@@ -227,6 +240,15 @@ export const cssTabView = StyleSheet.create({
     borderRadius: 3,
     borderWidth: 1,
     color: '#FFF'
-  }
+  },
+  viewParentTimeLine:{
+    width:100,
+    height:60,
+    borderColor:"#000",
+    borderLeftWidth:1,
+    borderBottomWidth:1,
+
+
+  },
 })
 //End The Css for Home.
